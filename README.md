@@ -28,4 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## install json server for dev purposes
 npm install json-server
+
+add "server": "json-server --watch db.json --port 5000" to package.json "scripts"-attributes
+
 nmp run server
