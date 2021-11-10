@@ -1,10 +1,20 @@
 # AngularCrashCourse
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
+This project was based on https://youtu.be/3dHNOWTI7H8
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## install json server for dev purposes
+npm install json-server
+
+add "server": "json-server --watch db.json --port 5000" to package.json "scripts"-attributes
+
+nmp run json server as dev-db.
+Visit the database at http://localhost:5000 
+
+
 
 ## Code scaffolding
 
@@ -25,10 +35,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## install json server for dev purposes
-npm install json-server
-
-add "server": "json-server --watch db.json --port 5000" to package.json "scripts"-attributes
-
-nmp run server
